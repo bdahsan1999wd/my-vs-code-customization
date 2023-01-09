@@ -1,0 +1,113 @@
+{
+    // editor
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+  
+    // cursor
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+  
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": null
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": null
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true,
+      "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+  
+    //terminal
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.enableFileLinks": false,
+  
+    // terminal customization
+    "workbench.colorCustomizations": {
+      "terminal.background": "#262828",
+      "terminal.foreground": "#ffffff",
+      "terminalCursor.background": "#15dbe5",
+      "terminalCursor.foreground": "#c1d812",
+      "terminal.ansiBlack": "#1D2021",
+      "terminal.ansiBlue": "#0D6678",
+      "terminal.ansiBrightBlack": "#665C54",
+      "terminal.ansiBrightBlue": "#0D6678",
+      "terminal.ansiBrightCyan": "#8BA59B",
+      "terminal.ansiBrightGreen": "#95C085",
+      "terminal.ansiBrightMagenta": "#8F4673",
+      "terminal.ansiBrightRed": "#FB543F",
+      "terminal.ansiBrightWhite": "#FDF4C1",
+      "terminal.ansiBrightYellow": "#FAC03B",
+      "terminal.ansiCyan": "#0bebe3",
+      "terminal.ansiGreen": "#95C085",
+      "terminal.ansiMagenta": "#8F4673",
+      "terminal.ansiRed": "#FB543F",
+      "terminal.ansiWhite": "#A89984",
+      "terminal.ansiYellow": "#FAC03B"
+    },
+    "cSpell.userWords": ["esbenp", "Fira"],
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "cfml",
+      "HTML (EEx)",
+      "HTML (Eex)",
+      "plist"
+    ],
+    "window.zoomLevel": 1,
+    "terminal.integrated.smoothScrolling": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "auto-close-tag.excludedTags": [
+      "area",
+      "base",
+      "br",
+      "col",
+      "command",
+      "embed",
+      "hr",
+      "img",
+      "input",
+      "keygen",
+      "link",
+      "meta",
+      "param",
+      "source",
+      "track",
+      "wbr"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "http.proxyAuthorization": null
+  }
