@@ -11,27 +11,32 @@
 
   /* -------------------------cursor------------------------- */
 
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.cursorBlinking": "expand",
-  
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 0,
+
   /* -------------------------config related to code formatting------------------------- */
 
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "[javascript]": {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
       "editor.formatOnSave": false,
       "editor.defaultFormatter": null
-    },
-    "[javascriptreact]": {
+  },
+  "[javascriptreact]": {
       "editor.formatOnSave": false,
       "editor.defaultFormatter": null
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.fixAll.tslint": true,
-      "source.organizeImports": true
-    },
-    "eslint.alwaysShowStatus": true,
+  },
+  "eslint.alwaysShowStatus": true,
 
   /* -------------------------terminal------------------------- */
 
@@ -42,7 +47,7 @@
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "block",
-  "terminal.integrated.enableFileLinks": false,
+  "terminal.integrated.enableFileLinks": "off",
 
   /* -------------------------terminal customization------------------------- */
 
@@ -69,10 +74,17 @@
     "terminal.ansiYellow": "#f5f514",
     "statusBar.background" : "#1A1A1A",
     "statusBar.noFolderBackground" : "#212121",
-    "statusBar.debuggingBackground": "#263238"
-    
+    "statusBar.debuggingBackground": "#263238",
+    "minimap.background": "#131211",
+    // "activityBar.background": "#2c2c54",
+    // "editorGroupHeader.tabsBackground": "#2c2c54",
+    // "sideBar.background": "#141422",
+    // "tab.activeBackground": "#706fd3",
+    // "tab.inactiveBackground": "#191846",
+    // "scrollbarSlider.background": "#474787",
+    // "scrollbarSlider.hoverBackground": "#706fd3"
   }
-
+  
   /* -------------------------Live Server------------------------- */
 
   "liveServer.settings.CustomBrowser": "chrome",
@@ -95,10 +107,10 @@
   "prettier.proseWrap": "always",
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[html]": {
+  //   "editor.defaultFormatter": "vscode.html-language-features"
+  // },
 
   /* ---------------------------ScreenCast Mode-------------------------- */
 
