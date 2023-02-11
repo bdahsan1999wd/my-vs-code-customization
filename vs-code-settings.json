@@ -1,20 +1,20 @@
 {
-  // -------------------------editor-------------------------
+  /* -------------------------editor------------------------- */
   
   "window.zoomLevel": 1.7,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 10,
 
-  // -------------------------cursor-------------------------
+  /* -------------------------cursor------------------------- */
 
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   
-  // -------------------------config related to code formatting-------------------------
+  /* -------------------------config related to code formatting------------------------- */
 
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
@@ -33,7 +33,7 @@
     },
     "eslint.alwaysShowStatus": true,
 
-  // -------------------------terminal-------------------------
+  /* -------------------------terminal------------------------- */
 
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 14,
@@ -44,7 +44,7 @@
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.enableFileLinks": false,
 
-  // -------------------------terminal customization-------------------------
+  /* -------------------------terminal customization------------------------- */
 
   "workbench.colorCustomizations": {
     "terminal.background": "#262828",
@@ -66,16 +66,20 @@
     "terminal.ansiMagenta": "#8F4673",
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#f5f514"
+    "terminal.ansiYellow": "#f5f514",
+    "statusBar.background" : "#1A1A1A",
+    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.debuggingBackground": "#263238"
+    
   }
 
-  // -------------------------Live Server-------------------------
+  /* -------------------------Live Server------------------------- */
 
   "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
 
-  // -------------------------Live SASS Compiler-------------------------
+  /* -------------------------Live SASS Compiler------------------------- */
 
   "liveSassCompile.settings.formats": [
     {
@@ -86,7 +90,7 @@
   ],
   "liveSassCompile.settings.generateMap": false,
 
-  // -------------------------Prettier Config-------------------------
+  /* -------------------------Prettier Config------------------------- */
 
   "prettier.proseWrap": "always",
   "prettier.singleQuote": true,
@@ -96,7 +100,7 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
 
-  // ---------------------------ScreenCast Mode--------------------------
+  /* ---------------------------ScreenCast Mode-------------------------- */
 
   "screencastMode.onlyKeyboardShortcuts": true,
   "screencastMode.mouseIndicatorColor": "#f1c40f",
