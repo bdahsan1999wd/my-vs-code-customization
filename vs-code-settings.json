@@ -1,14 +1,17 @@
 {
   /* -------------------------editor------------------------- */
   
-  "window.zoomLevel": 1.7,
+  "window.zoomLevel": 1.6,
   "editor.fontSize": 15,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 10,
-
+  "editor.tokenColorCustomizations": {
+    "comments": "#3EC70B"
+},
+  
   /* -------------------------cursor------------------------- */
 
   "editor.cursorSmoothCaretAnimation": "explicit",
