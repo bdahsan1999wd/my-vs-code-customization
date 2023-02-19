@@ -1,8 +1,9 @@
 {
   /* -------------------------editor------------------------- */
   
-  "window.zoomLevel": 1.6,
-  "editor.fontSize": 15,
+  "window.zoomLevel": 1.4,
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
@@ -44,7 +45,7 @@
   /* -------------------------terminal------------------------- */
 
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "monospace",
   "workbench.iconTheme": "vscode-icons",
