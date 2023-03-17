@@ -1,7 +1,6 @@
+//       Alt + Shift + A  -----> /* comments */
+
 {
-  /* -------------------------editor------------------------- */
-  
-  "window.zoomLevel": 1.4,
   "editor.fontSize": 14,
   "editor.tabSize": 4,
   "editor.fontFamily": "Fira Code, Operator Mono",
@@ -11,8 +10,8 @@
   "files.autoSaveDelay": 10,
   "editor.tokenColorCustomizations": {
     "comments": "#3EC70B"
-},
-  
+  },
+
   /* -------------------------cursor------------------------- */
 
   "editor.cursorSmoothCaretAnimation": "explicit",
@@ -30,15 +29,15 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[javascript]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
   "eslint.alwaysShowStatus": true,
 
@@ -71,54 +70,53 @@
     "terminal.ansiBrightWhite": "#FDF4C1",
     "terminal.ansiBrightYellow": "#3bfa58",
     "terminal.ansiCyan": "#0bebe3",
-    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiGreen": "#06c586",
     "terminal.ansiMagenta": "#8F4673",
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#f5f514",
-    "statusBar.background" : "#1A1A1A",
-    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.background": "#1A1A1A",
+    "statusBar.noFolderBackground": "#212121",
     "statusBar.debuggingBackground": "#263238",
     "minimap.background": "#131211",
+    "tab.activeBackground": "#000000",
+
     // "activityBar.background": "#2c2c54",
     // "editorGroupHeader.tabsBackground": "#2c2c54",
     // "sideBar.background": "#141422",
-    // "tab.activeBackground": "#706fd3",
     // "tab.inactiveBackground": "#191846",
     // "scrollbarSlider.background": "#474787",
-    // "scrollbarSlider.hoverBackground": "#706fd3"
-  }
-  
-  /* -------------------------Live Server------------------------- */
+    // "scrollbarSlider.hoverBackground": "#706fd3",
+    // "editor.selectionBackground": "#e788ff7c",
+    // "editor.selectionHighlightBackground": "#ff00005b",
+    // "editor.selectionHighlightBorder": "#fbf300e0",
+    // "editor.findMatchBackground": "#b911c28f",
+    // "editor.findMatchHighlightBorder": "#cc1414e0",
 
-  "liveServer.settings.CustomBrowser": "chrome",
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
+    "editor.findMatchHighlightBackground": "#0D7377"
+  },
 
-  /* -------------------------Live SASS Compiler------------------------- */
+  "window.zoomLevel": 1.4,
 
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "/css"
-    }
-  ],
-  "liveSassCompile.settings.generateMap": false,
-
-  /* -------------------------Prettier Config------------------------- */
-
-  "prettier.proseWrap": "always",
-  "prettier.singleQuote": true,
-  "prettier.arrowParens": "avoid",
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "[html]": {
-  //   "editor.defaultFormatter": "vscode.html-language-features"
-  // },
-
-  /* ---------------------------ScreenCast Mode-------------------------- */
-
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "screencastMode.mouseIndicatorColor": "#f1c40f",
-  "screencastMode.verticalOffset": 0,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ]
 }
